@@ -1,0 +1,6 @@
+{
+  "name": "Arushi AI",
+  "description": "Multilingual AI voice assistant powered by Gemini Live with device actions, phone calling, contacts integration, and app control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer sound resonance ring left arc -->
+    <path
+        android:pathData="M 33,40 A 26,26 0 0,0 33,68"
+        android:strokeWidth="3.5"
+        android:strokeColor="#7C4DFF"
+        android:strokeLineCap="round" />
+
+    <!-- Outer sound resonance ring right arc -->
+    <path
+        android:pathData="M 75,40 A 26,26 0 0,1 75,68"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FF8F00"
+        android:strokeLineCap="round" />
+
+    <!-- Mid sound wave left arc -->
+    <path
+        android:pathData="M 39,44 A 18,18 0 0,0 39,64"
+        android:strokeWidth="3"
+        android:strokeColor="#B388FF"
+        android:strokeLineCap="round" />
+
+    <!-- Mid sound wave right arc -->
+    <path
+        android:pathData="M 69,44 A 18,18 0 0,1 69,64"
+        android:strokeWidth="3"
+        android:strokeColor="#FFB300"
+        android:strokeLineCap="round" />
+
+    <!-- Glowing central AI sphere -->
+    <path
+        android:pathData="M 54,54 m -14,0 a 14,14 0 1,0 28,0 a 14,14 0 1,0 -28,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="40"
+                android:endX="68"
+                android:endY="68"
+                android:type="linear">
+                <item android:color="#FFB300" android:offset="0.0" />
+                <item android:color="#7C4DFF" android:offset="0.5" />
+                <item android:color="#00E5FF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner AI core sparkle -->
+    <path
+        android:pathData="M 54,45 C 54,51 51,54 45,54 C 51,54 54,57 54,63 C 54,57 57,54 63,54 C 57,54 54,51 54,45 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Top and bottom voice energy dots -->
+    <path
+        android:pathData="M 54,32 m -2,0 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0"
+        android:fillColor="#00E5FF" />
+    <path
+        android:pathData="M 54,76 m -2,0 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0"
+        android:fillColor="#FF8F00" />
+</vector>

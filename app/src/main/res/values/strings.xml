@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Arushi AI</string>
+    <string name="assistant_title">Arushi AI Assistant</string>
+    <string name="assistant_subtitle">Multilingual Voice &amp; Device Control</string>
+    <string name="status_ready">Tap to speak with Arushi</string>
+    <string name="status_listening">Listening to your voice…</string>
+    <string name="status_thinking">Arushi is thinking…</string>
+    <string name="status_speaking">Arushi is speaking…</string>
+    <string name="status_executing">Executing device action…</string>
+    <string name="status_error">Connection issue. Tap to retry.</string>
+    <string name="action_open_whatsapp">Opening WhatsApp…</string>
+    <string name="action_open_app">Opening %1$s…</string>
+    <string name="action_calling">Calling %1$s (%2$s)…</string>
+    <string name="action_contact_not_found">Contact not found</string>
+    <string name="action_multiple_contacts">Multiple contacts found. Please choose:</string>
+    <string name="permission_microphone_needed">Microphone permission is required for voice conversation.</string>
+    <string name="permission_contacts_needed">Contacts permission is required to call contacts by name.</string>
+    <string name="permission_call_needed">Phone call permission is required to initiate direct calls.</string>
+    <string name="grant_permission">Grant Permission</string>
+</resources>
